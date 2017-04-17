@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hchs-Student</string>
+    <string name="login">登入</string>
+    <string name="acc">帳號</string>
+    <string name="pwd">密碼</string>
+    <string name="logined">已登入</string>
+    <string name="connecting">連接中...</string>
+    <string name="error">登入錯誤</string>
+    <string name="empty">帳密都要填</string>
+    <string name="haslogin">已登入過了(不須重複登入)</string>
+</resources>
